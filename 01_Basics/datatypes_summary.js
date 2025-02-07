@@ -49,3 +49,26 @@ console.table([myObject])
 const myFunction = function(){
     console.log("Hello World"); 
 }
+
+//Stack(Primitive) we get a copy of a variable, 
+// Heap(Non-Primitive) we get a reference 
+
+let myYotubeName =  "Dhanush Shivanand"
+
+let anotherUserName = myYotubeName
+
+anotherUserName = "dshivana"
+
+console.log(myYotubeName)
+console.log(anotherUserName)
+
+
+let userOne = {
+    email:"dshivana@gmail.com"
+}
+
+
+let userTwo = userOne
+
+console.log(userOne)
+console.log(userTwo.toString);
