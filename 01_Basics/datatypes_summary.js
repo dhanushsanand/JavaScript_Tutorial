@@ -52,6 +52,7 @@ const myFunction = function(){
 
 //Stack(Primitive) we get a copy of a variable, 
 // Heap(Non-Primitive) we get a reference 
+console.log(myFunction())
 
 let myYotubeName =  "Dhanush Shivanand"
 
